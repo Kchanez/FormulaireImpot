@@ -1,0 +1,946 @@
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+* {
+  padding: 0%;
+  margin: 0px;
+  width: 100%;
+  color: rgb(15, 106, 177);
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+.row {
+  /* gap: 10px; */
+  /* background-color: #2196F3; */
+  width: 95%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* .grid-container > div */
+.row > div {
+  /* background-color: rgba(198, 211, 245, 0.8); */
+  background-color: rgb(224 231 244);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 30px;
+}
+/* Partie menu  */
+.row > .item2 {
+  display: flex;
+  flex-direction: column;
+}
+.row > .item2 .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row > .item2 .img p,
+h6 {
+  font-size: 15px;
+  margin: 2px;
+}
+.row > .item2 .img img {
+  min-width: 50%;
+}
+.row > .item2 .num {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row > .item2 .num p {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5em;
+  color: rgb(104, 147, 201);
+}
+
+/* partie Header  */
+.row > .item1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > .item1 .titre1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 200;
+  font-size: 1.6em;
+  padding-left: 20px;
+  min-height: 79px;
+}
+
+/* partie main  */
+
+.row > .item1 .item3 {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  min-height: 123px;
+}
+.row > .item1 .item3 .logo {
+  width: 9%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.row > .item1 .item3 .titre2 {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  width: 11%;
+}
+.row > .item1 .item3 .titre2 p {
+  font-size: 0.4em;
+  text-align: left;
+}
+
+/* partie numéro fiscal  partie en haut */
+.row > .item1 .item4 {
+  display: flex;
+  margin: 0px 0px 5px;
+}
+.row > .item1 .item4 .paragraphe1 {
+  padding-bottom: 5px;
+  background-color: rgb(186, 202, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row > .item1 .item4 .col-12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row > .item1 .item4 .col-12 .p1,
+.span1,
+.p2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.6em;
+  padding: 5px 5px 0px 15px;
+  font-weight: 300;
+  text-align: left;
+}
+.row > .item1 .item4 .col-12 .p1 {
+  font-weight: 600;
+}
+
+.row > .item1 .item4 .col-12 .col-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row > .item1 .item4 .col-12 .col-2 .span1,
+.col-12 .span1 {
+  font-size: 0.5em;
+}
+/* triangle shape */
+.row > .item1 .item4 .col-12 .col-2 .triangle-right,
+.col-12 .triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid rgb(15, 106, 177);
+  border-bottom: 5px solid transparent;
+  margin-top: 10px;
+}
+
+.row > .item1 .item4 .col-12 .pos {
+  position: relative;
+  left: -12px;
+}
+/* partie en bas  */
+.row > .item1 .item4 .col-12,
+.col-2 {
+  display: flex;
+  padding: 0px;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.row > .item1 .item4 .partie2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0px;
+}
+.row > .item1 .item4 .partie2 .check {
+  width: 13%;
+  /* height: 40%; */
+  height: 25px;
+  position: relative;
+  top: -18px;
+  border: 0.1px solid rgb(15, 106, 177) !important;
+}
+
+/*  partie droiten bas  */
+.row > .item1 .item4 .paragraphe1 .col-12 {
+  margin-top: 8px;
+}
+.row > .item1 .item4 .partie3 {
+  background-color: transparent;
+}
+.row > .item1 .item4 .paragraphe1 .col-12 .champ {
+  height: 28px;
+  width: 4.5%;
+  border: 0.1px solid rgb(15, 106, 177);
+  /* height: 0;
+	width: 10px;
+    border-bottom: 15px solid #a86f6f;
+	border-left: 30px solid transparent;
+	border-right: 0px solid transparent;
+    border-top: 15px solid #a86f6f; */
+}
+.row > .item1 .item4 .paragraphe1 .col-12 .color {
+  background-color: rgb(186 202 229);
+}
+.row > .item1 .item4 .partie3 .ligne {
+  justify-content: center;
+}
+.row > .item1 .item4 .partie3 p {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  align-items: center;
+  font-size: 0.65em;
+  width: 89%;
+}
+/* partie civilite */
+.row > .col-12 .civilite  , .col-6 .civilite {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: left;
+  font-size: 0.5em;
+  font-weight: 700;
+  border-bottom: 2px solid;
+  width: 98%;
+  padding: 0px;
+}
+
+
+/* partie  civilite declarant*/
+.row > .declarant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.row > .declarant .col-5
+{
+  display: flex; 
+  /* width: 46% */
+}
+.row > .NomUsage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 0px;
+  align-items: flex-start;
+}
+.row > .NomUsage p {
+  font-size: 0.5em;
+  font-weight: 300;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 18px;
+}
+.row > .NomUsage p span {
+  display: contents;
+  font-weight: 100;
+}
+
+.row > .declarant .info .p5 {
+  align-items: center;
+}
+
+.row > .declarant .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-size: 0.5em;
+  width: 10%;
+}
+.row > .declarant .info p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 40px;
+}
+/* inputs */
+.row > .declarant .declarant1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row > .declarant .declarant1 .col-12,
+.input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.row > .declarant .declarant1 .lieuNaissance {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.row > .declarant .declarant1 .lieuNaissance .p4 {
+  display: flex;
+  flex-direction: column;
+}
+.row > .declarant .declarant1 .lieuNaissance .p4 p {
+  font-size: 0.35em;
+  font-weight: 400;
+  padding-top: 2px;
+}
+.row > .declarant .declarant1 .input input {
+  border: none;
+  height: 30px;
+   border-bottom: 0.5px solid;
+}
+.row > .declarant .declarant1 .col-12 p {
+  font-size: 0.5em;
+  display: flex;
+  font-weight: 700;
+  justify-content: flex-start;
+}
+.row > .declarant .declarant1 .col-12 .checkCivilite {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 50%;
+}
+.row > .declarant .declarant1 .col-12 .checkCivilite .check {
+  height: 20px;
+}
+
+.row > .declarant .declarant1 .col-12 .checkCivilite p {
+  font-weight: 200;
+  font-style: italic;
+}
+/* status */
+.row > .declarant .declarant1 .lieuNaissance .status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row > .declarant .declarant1 .input input::placeholder {
+  color: rgb(15, 106, 177);
+  font-size: 0.7em;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+.row > .declarant .info .infoAdresse {
+  text-align: left;
+}
+.row > .NomUsage .col-3 p {
+  font-size: 0.6em;
+  font-weight: 600;
+  margin-left: 25px;
+  text-align: left;
+}
+.row > .adressChange {
+  align-items: center;
+}
+
+.row > .NomUsage .demenagement {
+  display: flex;
+  align-items: center;
+}
+.row > .NomUsage .demenagement input {
+  height: 30px;
+  border: none;
+}
+.row > .NomUsage .demenagement p {
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+.row > .adresse{
+  align-items: baseline;
+}
+
+/* signature  */
+.row > .declarant .col-5 .col-8 , .col-4
+{
+  display: flex;
+}
+.row > .declarant .col-5 .col-8 input ,.col-4 input
+{
+  height: 130px;
+  border: none;
+}
+.row > .declarant .col-5 .col-8 input::placeholder , .col-4 input::placeholder 
+{
+  color: rgb(15, 106, 177);
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+
+.row > .declarant  .cachet , .col-6 .cachet 
+{
+    display: flex;
+    align-items: normal;
+}
+
+.row > .declarant  .col-12 .codeQR
+{
+  display: flex; 
+  width: 3.5%;
+  align-items: center;
+}
+.row > .declarant  .col-12 .codeQR img
+{
+  position: relative; 
+  left: 50px;
+}
+.row > .declarant .cachet p ,.col-6 .cachet p
+{
+  display: flex; 
+  border: 0.1px solid; 
+  border-top: none;
+  font-size: 0.3em;
+  font-weight: 600;
+  padding-left: 4px;
+  padding-top: 4px;
+}
+.row > .hauteur 
+{
+  justify-content: center;
+  height: 65px;
+}
+
+.row > .hauteur .col-12
+{
+  display: flex; 
+  width: 98%;
+}
+.row > .declarant .droit
+{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around;
+}
+.row > .declarant .droit .haut
+{
+  display: flex; 
+  flex-direction: row; 
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.row > .declarant .droit .haut p 
+{
+  text-align: left; 
+  font-size: 0.5em;
+}
+
+.row > .declarant .droit .haut .check
+{
+  height: 20px;
+}
+
+
+
+/*  2ieme formualaire */
+.row  > .col-6  .fiscal , .col-6 .situation
+{
+  display: flex;
+  align-items: flex-start; 
+  margin: 0px 4px 0px; 
+}
+.row  > .col-6  .marge 
+{
+  margin: 59px 7px 0px
+}
+
+.row  > .col-6  .fiscal .situation .p7
+{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.row  > .col-6  .fiscal .situation .p7 .p
+{
+  font-weight: 200;
+}
+.row  > .col-6  .fiscal .situation .p7 .naissance
+{
+  display: flex;
+  width: 75%;
+  /* justify-content: space-around; */
+    justify-content: flex-end;
+    gap: 50px;
+    position: relative;
+    right: 21px;
+}
+.row  > .col-6  .fiscal p 
+{
+  font-size: 0.5em;
+  text-align: left;
+  font-weight: 500;
+}
+
+.row > .col-6 .fiscal .col-6 .situation .p6 p
+{
+  font-size: 0.6em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.row > .col-6 .fiscal .col-6 .situation .col-2 .check
+{
+  height: 20px;
+}
+
+.row > .col-6 .date
+{ 
+    margin: 5px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row > .col-6 .pad
+{
+  margin-top: 2px;
+}
+.row > .col-6 .date1
+{ 
+    display: flex;
+    flex-direction: column;
+}
+.row > .col-6 .date .NumFiscal
+{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row > .col-6 .date .situation
+{
+  flex-direction: column;
+}
+.row > .col-6 .date .NumFiscal p
+{ 
+  font-size:0.5em ; 
+  font-weight:300;
+  line-height: 1.5;
+}
+.row > .col-6 .date .NumFiscal .col-4
+{ 
+  font-style: italic;
+  font-weight: 200;
+}
+.row > .col-6 .date .situation .liste
+{
+  font-size: 0.5em; 
+  font-weight: 300; 
+  text-align: left;
+  line-height: 1.5;
+}
+.row > .col-6 .date .situation .ol
+{ 
+  font-weight: 600;
+}
+.row > .col-6 .date .NumFiscal .input
+{
+  display: flex;
+  align-items: center;
+  padding: 1px 0px 0px;
+}
+
+.row > .col-6 .date .NumFiscal .input1
+{
+  justify-content: space-around;
+  width: 95%;
+  border-bottom: 0.5px solid;
+}
+.row > .col-6 .date .NumFiscal .input1 input::placeholder
+{
+  font-size:1em;
+  font-style: italic;
+  font-weight: 200;
+  color: rgb(15, 106, 177);
+  padding-left: 3px;
+}
+.row > .col-6 .date .NumFiscal .position
+{
+  position: relative;
+  left: 20px;
+}
+.row > .col-6 .date .NumFiscal .position .bordure
+{
+  border: 0.8px solid rgb(15, 106, 177);
+  border-top: 0px;
+}
+
+
+.row > .col-6 .date .NumFiscal .divorce
+{
+  justify-content: space-around;
+}
+.row > .col-6 .date .NumFiscal .input input 
+{
+  height: 25px; 
+  border: none;
+}
+.row > .col-6 .date .NumFiscal .input2 
+{
+  border-bottom: 0.5px solid;
+}
+.row > .col-6 .date .col-6 .col-12
+{ 
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.row > .col-6 .date .col-6 .col-12 p 
+{
+  font-size: 0.5em;
+  font-weight: 300;
+  line-height: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.row > .col-6 .date .col-6 .col-12  input 
+{
+  height: 25px;
+  border: none;
+}
+.row  > .col-6  .fiscal .pension
+{
+  flex-direction: row;     
+  align-items: flex-end;
+}
+.row  > .col-6  .fiscal  .pension .ol span 
+{
+  font-weight: 200;
+}
+.row  > .col-6  .fiscal  .pension .position 
+{
+  left: 14px;
+}
+
+.row > .col-12 .partieD
+{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+}
+.row > .col-12 .partieD .check input
+{
+  height: 25px;
+  position: relative;
+  left: 68px;
+}
+.row > .col-12 .text
+{
+   display: flex;
+   align-items: center;
+}
+
+.row > .col-12 .text p
+{
+  text-align: left; 
+  font-size: 0.5em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.row > .col-12 .text p span
+{
+  font-weight: 200;
+}
+.row > .col-12  .infos
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row > .col-12  .infos .information
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 10px
+}
+.row > .col-12  .infos .information input
+{
+  width: 98%; 
+  height: 25px; 
+  border: none; 
+  border-bottom: 0.6px solid;
+}
+.row > .col-12  .infos .bancaire 
+{
+  display: flex;
+   justify-content: space-around;
+  width: 98%;
+}
+.row > .col-12  .infos .bas
+{
+ 
+  justify-content: space-between;
+}
+.row > .col-12  .infos .codeQR
+{
+ width: 3.5%;
+ display: flex; 
+ align-items: flex-end;
+}
+.row > .col-12  .infos .bancaire .col-12
+{
+  display: flex;
+  flex-direction: column;
+}
+.row > .col-12  .infos .bancaire p
+{
+  font-size: 0.5em;
+  font-weight: 600;
+  text-align: left;
+}
+.row > .col-12  .infos .bancaire .p9
+{
+  font-weight: 200;
+  font-style: italic;
+}
+.row > .declarant .fiscal .foyer .col-3
+{
+  font-weight: 300;
+  font-style: italic;
+}
+.row > .declarant .fiscal .center
+{
+  align-items: center;
+}
+.row > .col-12  .parD span{
+  font-weight: 300;
+}
+
+.row > .coordonnéesBancaire
+{
+  padding: 30px 0px 0px; 
+}
+.row > .coordonnéesBancaire .parD
+{
+  margin-bottom: 8px;
+}
+.row > .declarant .declarant1 .check2 input {
+    border: none;
+}
+
+
+.row > .form3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row > .form3 .background
+{
+  /* background-color: aquamarine;  */
+    background-color: rgb(234 239 248);
+    width: 95%;
+    height: 900px;
+    margin: 5% 0px;
+    padding-top: 25px;
+}
+.row > .form3 .background .attestation
+{
+  display: flex; 
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: space-around;
+  gap: 3px;
+  width: 98%;
+  align-items: center;
+}
+.row > .form3 .background .attestation .hebergement
+{
+  display: flex;    
+  align-items: center; 
+  justify-content:space-around;
+  width: 98%;
+}
+.row > .form3 .background .attestation .article
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px; 
+  flex-direction: column;
+  gap: 10px
+}
+.row > .form3 .background .attestation .article .haut 
+{
+  font-size: 0.7em;
+  line-height: 1.8;
+  font-weight: 500;
+  text-align: left;
+}
+.row > .form3 .background .attestation .article .bas
+{
+  font-size: 0.5em;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+}
+.row > .form3 .background .attestation .hebergement p 
+{
+  font-size: 0.6em;    
+  font-weight: 400;    
+  display: flex;    
+  justify-content: flex-start; 
+  align-items: center; 
+}
+.row > .form3 .background .attestation .hebergement input
+{
+  height: 30px;
+  border: none;
+}
+.row > .form3 .background .attestation .hebergement .domicile 
+{
+  display: flex;
+  justify-content: space-between;
+}
+.row > .form3 .background .attestation .hebergement .domicile  input
+{
+  border-bottom: 0.5px solid;
+}
+
+.row > .form3 .background .attestation .hebergement .domicile  .duree
+{
+  display: flex;
+  justify-content: space-between;
+}
+.row > .form3 .background .attestation .hebergement .domicile  .duree p
+{
+  display: flex;
+    justify-content: center;
+}
+.row > .form3 .background .attestation .hebergement .domicile  .fait
+{
+    border: none;
+}
+.row > .form3 .background .attestation .hebergement .domicile  .faitLe
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.row > .form3 .background .attestation .admin
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 25px 0px;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .row > .item1 .item3 .logo {
+    width: 35%;
+    justify-content: none;
+  }
+}
